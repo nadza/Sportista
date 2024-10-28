@@ -1,0 +1,19 @@
+.prva-sekcija {
+    text-align: center;
+    padding: 180px 20px;
+    background-image: './fit.jpg';
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.prva-sekcija h1 span {
+    color: whitesmoke;
+}
+
+.prva-sekcija h1 {
+    font-size: 48px;
+    color: brown;
+    position: relative; /* Relativno pozicioniranje */
+    margin-bottom: 50px; /* Dodatni razmak ispod h1 */
+}

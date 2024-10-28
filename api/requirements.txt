@@ -1,0 +1,6 @@
+sqlalchemy
+fastapi
+uvicorn[standard]
+websockets
+pillow
+requests

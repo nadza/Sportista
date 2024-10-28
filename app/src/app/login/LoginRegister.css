@@ -1,0 +1,103 @@
+body {
+    background-image: url('./bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.login {
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    background-color: rgba(0, 0, 0, 0.04);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 6vh;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+form h1 {
+    color: black;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-box {
+    margin-bottom: 3vh;
+}
+
+input::placeholder {
+    color: rgba(0, 0, 0, 0.54);
+}
+
+button {
+    width: 85%;
+    padding: 12px;
+    background: #e63825;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 1vh;
+}
+
+button:hover {
+    background: #d5301b;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.register-link p {
+    color: black;
+    font-weight: 600;
+}
+
+.register-link a {
+    color: #e63825;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+    .login {
+        padding: 20px;
+    }
+
+    form h1 {
+        font-size: 28px;
+    }
+
+    .input-box input {
+        padding: 10px 20px;
+    }
+
+    .input-box .icon {
+        left: 10px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .register-link {
+        font-size: 12px;
+    }
+}
